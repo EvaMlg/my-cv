@@ -1,1 +1,77 @@
 
+
+  /* For Responsive Images */
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: #EEF4D4;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: 'Cousine', monospace;
+    font-size: 12px;
+  }
+
+  .header {;
+    color: black;
+    padding: 15px;
+    font-family: 'Megrim', cursive;
+    font-size:25px;
+  }
+
+  h2 {
+      font-family: 'Megrim', cursive;
+    font-size: 30px;}
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 30px;
+    margin-bottom: 4px;
+    background-color: #E5EEBE;
+    ;
+  }
+  
+  .menu li:hover {
+    background-color: #BFD55D;
+  }
+ 
+  
+  /* For desktop: */
+  .col-1 {width: 15%;}
+  .col-3 {width: 30%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
