@@ -1,3 +1,6 @@
+
+
+
 /*-------- Page Grid -----------*/
 
 .pagegrid { 
@@ -5,7 +8,6 @@
     grid-template-columns: 1fr 3fr;
 
 }
-
 
 @media (max-width: 768px) {
     /* For mobile phones: */
@@ -20,6 +22,7 @@
     }
 }
 
+/* --------- body/htlm/header -------- */
   
 body{
     background-color: #EEF4D4;
@@ -30,22 +33,21 @@ html {
   font-size: 12px;
 }
 
-header {;
+.header {
   padding: 1px;
   font-family: 'Roboto', sans-serif;  
-  font-size: 32px;
+  font-size: 42px;
 }
 
 @media (max-width: 768px) {
-    /* For mobile phones: */
     .header {
-      font-size: 24px;
+      font-size: 32px;
     }
   }
 
-  @media (max-width: 479px) {
-    .header{
-        font-size: 16px;
+@media (max-width: 479px) {
+    .header {
+        font-size: 22px;
         }
     }
     
@@ -57,325 +59,17 @@ h2 {
 
   @media (max-width: 768px) {
     .h2 {
-      font-size: 32px;
-    }
-  }
-
-  @media (max-width: 479px) {
-    .h2{
-        font-size: 32px;
-        }
-    }
-    
- 
-
-
-
-    /*--------------- Menu -------------------- */
-  
-
-    
-    .menu ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .menu li {
-      padding: 30px;
-      margin-bottom: 4px;
-      background-color: #E5EEBE;
-      ;
-    }
-    
-    .menu li:hover {
-      background-color: #BFD55D;
-    }
-   
-    
-    /* For desktop: */
-    .menu {width: 1fr}
-    
-    @media only screen and (max-width: 768px) {
-      /* For mobile phones: */
-      .menu {
-        width: 100%;
-      }
-    }
-  
-
-/*------------ Body container -----------*/
-
-
-
-    .pagegrid {
-      grid-template-columns: 1fr 1fr;/*-------- Page Grid -----------*/
-
-      .pagegrid { 
-          display: grid;
-          grid-template-columns: 1fr 3fr;
-      
-      }
-      
-      
-      @media (max-width: 768px) {
-          /* For mobile phones: */
-          .pagegrid {
-            grid-template-columns: 1fr 1fr;
-          }
-        }
-      
-        @media (max-width: 479px) {
-          .pagegrid {
-            grid-template-columns: 1fr;
-          }
-      }
-      
-        
-      body{
-          background-color: #EEF4D4;
-      }
-      
-      html {
-        font-family: 'Cousine', monospace;
-        font-size: 12px;
-      }
-      
-      header {;
-        padding: 1px;
-        font-family: 'Roboto', sans-serif;  
-        font-size: 32px;
-      }
-      
-      @media (max-width: 768px) {
-          /* For mobile phones: */
-          .header {
-            font-size: 24px;
-          }
-        }
-      
-        @media (max-width: 479px) {
-          .header{
-              font-size: 16px;
-              }
-          }
-          
-      
-      h2 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 32px;
-      }
-      
-        @media (max-width: 768px) {
-          .h2 {
-            font-size: 32px;
-          }
-        }
-      
-        @media (max-width: 479px) {
-          .h2{
-              font-size: 32px;
-              }
-          }
-          
-       
-      
-      
-      
-          /*--------------- Menu -------------------- */
-        
-      
-          
-          .menu ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-          }
-          
-          .menu li {
-            padding: 30px;
-            margin-bottom: 4px;
-            background-color: #E5EEBE;
-            ;
-          }
-          
-          .menu li:hover {
-            background-color: #BFD55D;
-          }
-         
-          
-          /* For desktop: */
-          .menu {width: 1fr}
-          
-          @media only screen and (max-width: 768px) {
-            /* For mobile phones: */
-            .menu {
-              width: 100%;
-            }
-          }
-        
-      
-      /*------------ Body container -----------*/
-      
-      
-      
-          .pagegrid {
-            grid-template-columns: 1fr 1fr;
-          }
-        }
-      
-        @media (max-width: 479px) {
-          .pagegrid {
-            grid-template-columns: 1fr;
-          }
-      }
-      
-        
-      body{
-          background-color: #EEF4D4;
-      }
-      
-      html {
-        font-family: 'Cousine', monospace;
-        font-size: 12px;
-      }
-      
-      header {;
-        padding: 1px;
-        font-family: 'Roboto', sans-serif;  
-        font-size: 32px;
-      }
-      
-      @media (max-width: 768px) {
-          /* For mobile phones: */
-          .header {
-            font-size: 24px;
-          }
-        }
-      
-        @media (max-width: 479px) {
-          .header{
-              font-size: 16px;
-              }
-          }
-          
-      
-      h2 {
-        font-family: 'Roboto', sans-serif;
-        font-size: 32px;
-      }
-      
-        @media (max-width: 768px) {
-          .h2 {
-            font-size: 32px;
-          }
-        }
-      
-        @media (max-width: 479px) {
-          .h2{
-              font-size: 32px;
-              }
-          }
-          
-       
-      
-      
-      
-          /*--------------- Menu -------------------- */
-        
-      
-          
-          .menu ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-          }
-          
-          .menu li {
-            padding: 30px;
-            margin-bottom: 4px;
-            background-color: #E5EEBE;
-            ;
-          }
-          
-          .menu li:hover {
-            background-color: #BFD55D;
-          }
-         
-          
-          /* For desktop: */
-          .menu {width: 1fr}
-          
-          @media only screen and (max-width: 768px) {
-            /* For mobile phones: */
-            .menu {
-              width: 100%;
-            }
-          }
-        
-      
-      /*------------ Body container -----------*/
-      
-      
-      
-    }
-  }
-
-  @media (max-width: 479px) {
-    .pagegrid {
-      grid-template-columns: 1fr;
-    }
-}
-
-  
-body{
-    background-color: #EEF4D4;
-}
-
-html {
-  font-family: 'Cousine', monospace;
-  font-size: 12px;
-}
-
-header {;
-  padding: 1px;
-  font-family: 'Roboto', sans-serif;  
-  font-size: 32px;
-}
-
-@media (max-width: 768px) {
-    /* For mobile phones: */
-    .header {
       font-size: 24px;
     }
   }
 
   @media (max-width: 479px) {
-    .header{
+    .h2{
         font-size: 16px;
         }
     }
     
-
-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 32px;
-}
-
-  @media (max-width: 768px) {
-    .h2 {
-      font-size: 32px;
-    }
-  }
-
-  @media (max-width: 479px) {
-    .h2{
-        font-size: 32px;
-        }
-    }
-    
  
-
 
 
     /*--------------- Menu -------------------- */
